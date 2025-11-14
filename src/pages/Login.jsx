@@ -40,7 +40,7 @@ const Login = () => {
               type="email"
               placeholder="Enter your email"
              
-              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-green-700 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
+              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
             />
           </div>
 

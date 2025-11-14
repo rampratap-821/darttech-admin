@@ -40,11 +40,11 @@ const Login = () => {
               type="email"
               placeholder="Enter your email"
              
-              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
+              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 "
             />
           </div>
 
-          <div className="mb-8 relative bg-green-700 rounded-2xl">
+          <div className="mb-8 relative  bg-green-700 rounded-2xl ">
             <RiLockPasswordFill
               className="absolute left-4 top-4 text-white"
               size={20}
@@ -53,7 +53,7 @@ const Login = () => {
               type="password"
               placeholder="Enter your password"
             
-              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
+              className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 "
             />
           </div>
 

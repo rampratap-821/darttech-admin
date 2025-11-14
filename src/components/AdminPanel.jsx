@@ -41,7 +41,7 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
       {/* Menu Items */}
       <nav className="flex-1 p-3 space-y-2">
         <Link
-          to="/dashboard"
+          to="/dashboard/home"
           onClick={handleMenuItemClick} // ✅ Ye line add karo
           className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-200"
         >
@@ -57,6 +57,8 @@ const AdminPanel = ({ adminPanelOpen, onItemClick }) => {
           <FiUsers size={20} />
           {adminPanelOpen && <span>Users</span>}
         </Link>
+
+
 
         <Link
           to="/dashboard/settings"

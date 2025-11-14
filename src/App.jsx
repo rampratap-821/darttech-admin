@@ -7,18 +7,21 @@ import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
+
         <Route path="/dashboard" element={<Dashboard />}>
-          <Route index element={<div className="p-6"><h1>Dashboard Home</h1></div>} />
+          <Route path="home" element={<Home />} />
           <Route path="users" element={<Users />} />
           <Route path="settings" element={<Settings />} />
           <Route path="reports" element={<Reports />} />
         </Route>
+        
       </Routes>
     </Router>
   );

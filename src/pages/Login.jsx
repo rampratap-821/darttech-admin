@@ -20,7 +20,7 @@ const Login = () => {
       <div className="w-full max-w-md">
         <form
           onSubmit={handleLogin}
-          className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-3xl shadow-2xl w-full"
+          className="bg-black border border-white/20 p-6 rounded-3xl shadow-2xl w-full"
         >
           <div className="flex justify-center mb-6">
             <img 
@@ -31,37 +31,37 @@ const Login = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-white">
-            Welcome Back
+           Login
           </h2>
 
           <div className="mb-6 relative">
-            <MdEmail className="absolute left-4 top-4 text-white/70" size={20} />
+            <MdEmail className="absolute left-4 top-4 text-white" size={20} />
             <input
               type="email"
               placeholder="Enter your email"
-              required
+             
               className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
             />
           </div>
 
           <div className="mb-8 relative">
             <RiLockPasswordFill
-              className="absolute left-4 top-4 text-white/70"
+              className="absolute left-4 top-4 text-white"
               size={20}
             />
             <input
               type="password"
               placeholder="Enter your password"
-              required
+            
               className="w-full pl-12 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-transparent transition-all duration-300"
             />
           </div>
 
           <button
             type="submit"
-            className="w-full bg-white text-green-700 hover:bg-gray-100 py-3 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="w-full text-white bg-green-700  py-3 rounded-xl font-bold text-lg "
           >
-            Sign In
+            Login
           </button>
 
          
